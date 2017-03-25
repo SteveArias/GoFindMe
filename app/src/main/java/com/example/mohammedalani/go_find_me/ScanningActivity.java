@@ -41,8 +41,7 @@ public class ScanningActivity extends AppCompatActivity {
         });
 
         beaconManager = new BeaconManager(this);
-        region = new Region("ranged region",
-                null, null, null);
+        region = new Region("ranged region", null, null, null);
         beaconManager.setRangingListener(new BeaconManager.RangingListener() {
             @Override
             public void onBeaconsDiscovered(Region region, List<Beacon> list) {
