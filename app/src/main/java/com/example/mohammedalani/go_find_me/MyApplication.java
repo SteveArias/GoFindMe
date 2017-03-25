@@ -1,6 +1,7 @@
 package com.example.mohammedalani.go_find_me;
 
 import android.app.Application;
+import android.content.pm.ActivityInfo;
 import android.widget.TextView;
 
 import com.estimote.sdk.Beacon;

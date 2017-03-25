@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="com.example.mohammedalani.go_find_me.MainActivity">
 
     <TextView
@@ -17,6 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="67dp"
+        android:textColor="#4cc524"
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
     <Button
@@ -26,8 +28,11 @@
         android:id="@+id/findBeaconButton"
         android:layout_marginBottom="31dp"
         android:layout_above="@+id/scanButton"
+        android:background="@drawable/roundbutton"
+        android:padding="5dp"
+        android:textColor="#ffffff"
         android:layout_alignEnd="@+id/scanButton"
-        android:layout_marginEnd="15dp" />
+        android:layout_alignStart="@+id/scanButton" />
 
     <Button
         android:text="Scan for lost beacons"
@@ -37,5 +42,9 @@
         android:id="@+id/scanButton"
         style="@style/Widget.AppCompat.Button"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbutton"
+        android:padding="5dp"
+        />
 </RelativeLayout>

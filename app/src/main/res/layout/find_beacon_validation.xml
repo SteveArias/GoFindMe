@@ -25,5 +25,7 @@
         android:layout_marginTop="103dp"
         android:id="@+id/okButton"
         android:layout_below="@+id/validationTextView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbutton" />
 </RelativeLayout>
