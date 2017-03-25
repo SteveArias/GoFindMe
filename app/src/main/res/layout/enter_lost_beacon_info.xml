@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/editTextMacAddress"
+            android:layout_height="wrap_content"
+            android:hint="MacAddress"
+            android:inputType="text"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="text"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editBounty"
+            android:layout_height="wrap_content"
+            android:hint="Bounty"
+            android:inputType="text"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_height="wrap_content"
+            android:hint="Description of Item attached to Beacon"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <Button
+            android:text="SAVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/beaconInfoSaveButton" />
+
+    </LinearLayout>
+</ScrollView>

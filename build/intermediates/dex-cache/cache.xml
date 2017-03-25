@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="533b91bf4bab668aa8e392e51cc67ef2d00a5e58">
+        sha1="1263ce5b27ef97f92688b6b9bb1b424b272e6b80">
         <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2afedbd17a28c7b66f62537ff65acc2a88948714/classes.dex" />
     </item>
     <item
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1e7abbc97968f9644fdbad11742b17bb38987f5a">
+        sha1="c061194fa2ae0ff9118b58004437cadd4e363e83">
         <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_59e85c5f87ccddc33779191925d69728cd8ef781/classes.dex" />
     </item>
     <item

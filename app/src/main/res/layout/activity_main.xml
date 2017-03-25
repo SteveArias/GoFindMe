@@ -20,12 +20,22 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
     <Button
-        android:text="SCAN"
+        android:text="Find a lost beacon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="128dp"
+        android:id="@+id/findBeaconButton"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/scanButton"
+        android:layout_alignEnd="@+id/scanButton"
+        android:layout_marginEnd="15dp" />
+
+    <Button
+        android:text="Scan for lost beacons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
         android:id="@+id/scanButton"
-        style="@style/Widget.AppCompat.Button" />
+        style="@style/Widget.AppCompat.Button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

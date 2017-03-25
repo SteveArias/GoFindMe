@@ -19,6 +19,7 @@ import java.util.UUID;
 public class MainActivity extends AppCompatActivity {
 
     private Button launchScanningActivityButton;
+    private Button findBeaconButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findBeaconButton = (Button) findViewById(R.id.findBeaconButton);
+        findBeaconButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchEnterLostBeaconInfoActivity();
+            }
+        });
 
     }
 
@@ -53,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchScanningActivity() {
         Intent intent = new Intent(this, ScanningActivity.class);
+        startActivity(intent);
+    }
+
+    private void launchEnterLostBeaconInfoActivity() {
+        Intent intent = new Intent(this, EnterLostBeaconInfoActivity.class);
         startActivity(intent);
     }
 }
