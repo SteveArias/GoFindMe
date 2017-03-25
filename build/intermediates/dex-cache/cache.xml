@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/GoFindMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_8050ae528414e2962f9ce14ac00d5fdd2d6578cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_4de19814c2eba91ec8ccd9fcb9928bf51859dd95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_13ee52f8a98ae8c0b2c2b2f1f41e46e35deb79d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3de7a7100bcb2cf7af8c06515e837e545dbeb572">
+        <dex dex="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9080cf3548862e7a8060706901490f100e16d960/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/GoFindMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_86daa72b5903de1b1e5b46d979f19af6168b5586/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="52648546ee4422f6fd8ac15ce357a36791515564">
+        <dex dex="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4efe9eaac83f61f27b103b52673a589c3f8f977c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/GoFindMe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="533b91bf4bab668aa8e392e51cc67ef2d00a5e58">
+        <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2afedbd17a28c7b66f62537ff65acc2a88948714/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/GoFindMe/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e7abbc97968f9644fdbad11742b17bb38987f5a">
+        <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_59e85c5f87ccddc33779191925d69728cd8ef781/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/exploded-aar/com.estimote/sdk/0.11.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ff85bb08facfbaa19d529be27738fd354baaab7">
+        <dex dex="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.estimote-sdk-0.11.1_19d12b68890b5e76f04855f953228514c67f6b21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_af42ed68dc4dd9198c6bc0465006635004e8d10e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/GoFindMe/app/build/intermediates/exploded-aar/com.estimote/sdk/0.16.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a41472eb1b3a7f17921ff4918ca4fab137b7c0f2">
+        <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.estimote-sdk-0.16.1_c3efa6d8307716d7d4583393021fbb0d0df63202/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/mohammedalani/Downloads/go-find-me/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_b7d011b0b3b88fea3ebb4106298c40c95c7abddf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mohammedalani/GoFindMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/mohammedalani/GoFindMe/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_b5c78c50519e71fa3bda390db3ed517c26c7a7ac/classes.dex" />
+    </item>
+
+</items>
