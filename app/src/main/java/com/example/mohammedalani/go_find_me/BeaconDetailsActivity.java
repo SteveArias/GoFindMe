@@ -3,11 +3,9 @@ package com.example.mohammedalani.go_find_me;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-
 import com.estimote.sdk.Beacon;
 import com.estimote.sdk.BeaconManager;
 import com.estimote.sdk.Region;
-
 import java.util.List;
 import java.util.UUID;
 
