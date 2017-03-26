@@ -29,14 +29,14 @@ public class BeaconDetailsActivity extends AppCompatActivity {
 
         // API call to find out if this is being looked for
 
-        boolean isHuntedBeacon = true;
+        String isHuntedBeacon = getIntent().getStringExtra("isHunted");
         final String macAddress = getIntent().getStringExtra("macAddress");
-        final String bounty = "5";
-        final String description = "description";
-        final String phoneNumber = "4206913377";
+        final String bounty = getIntent().getStringExtra("bounty");
+        final String description = getIntent().getStringExtra("description");
+        final String phoneNumber = getIntent().getStringExtra("phoneNumber");
 
         contactButton = (Button) findViewById(R.id.contactButton);
-        if (!isHuntedBeacon) {
+        if (isHuntedBeacon.equals("no")) {
             contactButton.setVisibility(View.GONE);
         }
         else {
@@ -50,7 +50,7 @@ public class BeaconDetailsActivity extends AppCompatActivity {
         }
 
         beaconInfo = (TextView) findViewById(R.id.beaconInfo);
-        if (isHuntedBeacon) {
+        if (isHuntedBeacon.equals("yes")) {
             beaconInfo.setText("Someone is looking for this beacon and is offering a $"
                                 + bounty + " reward to whoever finds it! If you find the item"
                                 + " that matches the description below, contact the user at the"
